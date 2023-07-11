@@ -14,14 +14,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="images/logo/logo-2.svg"
+                    src="https://utdgrupoti.com/smartpass/logo.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="images/logo/logo.svg"
+                    src="https://utdgrupoti.com/smartpass/smartpass.png"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -29,8 +29,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Av. Gral. Lazaro Cardenas 302, Zona Centro, 34000 Durango, Dgo.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -208,14 +207,14 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by UIdeck and <a href="https://nextjstemplates.com" rel="nofollow noopener">Next.js Templates</a>
+            Trust, Transparency, and Unforgettable Experiences. SmartPass 2023 &copy; All Rights Reserved.
             </p>
           </div>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
             width="55"
-            height="99"
+            height="220"
             viewBox="0 0 55 99"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

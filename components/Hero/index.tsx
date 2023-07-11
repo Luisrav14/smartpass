@@ -41,8 +41,8 @@ const Hero = () => {
           </div>
         </div>
         <div
-        className="absolute top-0 right-0 z-[-1] h-screen w-screen"
-        style={{backgroundImage: "url('/images/hero/hero.jpg')", }}
+        className="absolute top-0 right-0 z-[-1] h-screen w-screen 	"
+        style={{backgroundImage: "url('https://utdgrupoti.com/smartpass/banner5.png')", }}
         >
           {/* <svg
             width="450"

@@ -10,18 +10,24 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "About Us",
-    path: "/about",
+    path: "/#about",
     newTab: false,
   },
   {
     id: 3,
-    title: "Concerts and festivals",
-    path: "/blog",
+    title: "Presentation",
+    path: "/#presentation",
+    newTab: false,
+  },
+  {
+    id: 4,
+    title: "Team members",
+    path: "/team",
     newTab: false,
   },
 
-  {
-    id: 4,
+  /* {
+    id: 5,
     title: "Concerts and festivals",
     newTab: false,
     submenu: [
@@ -74,6 +80,6 @@ const menuData: Menu[] = [
         newTab: false,
       },
     ],
-  },
+  }, */
 ];
 export default menuData;
