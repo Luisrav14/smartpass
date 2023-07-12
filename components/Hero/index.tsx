@@ -6,6 +6,7 @@ const Hero = () => {
       <section
         id="home"
         className="hero relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        style={{ height: "100vh" }}
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -21,18 +22,18 @@ const Hero = () => {
                 Smartpass provides an innovative and reliable ticketing solution using blockchain technology, providing security, transparency and ease of use. We are only as good as the result we deliver on every ticket.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="#about"
+                  <a
+                    href="#Problematic"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     About
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="#contact"
                     className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
                     Contact
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

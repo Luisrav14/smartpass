@@ -1,6 +1,6 @@
 const SingleTeamMember = ({member}) => {
     return (
-        <a href="#" className="group relative block bg-black w-1/3">
+        <a href="#" className="group relative block bg-black w-1/4">
             <img
                 alt="Developer"
                 src={member.img}
