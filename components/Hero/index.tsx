@@ -6,7 +6,7 @@ const Hero = () => {
       <section
         id="home"
         className="hero relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
-        style={{ height: "100vh" }}
+        style={{ height: "100vh", width: "100%"}}
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
@@ -40,9 +40,15 @@ const Hero = () => {
           </div>
         </div>
         <div
-        className="absolute top-0 right-0 z-[-1] h-screen w-screen 	"
-        style={{backgroundImage: "url('https://utdgrupoti.com/smartpass/banner5.png')", }}
+          className="absolute top-0 right-0 z-[-1] h-screen w-screen"
+          style={{
+            backgroundImage: "url('https://utdgrupoti.com/smartpass/banner5.png')",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
         >
+
           {/* <svg
             width="450"
             height="556"
