@@ -13,7 +13,7 @@ const checkIcon = (
 
     <g
       id="SVGRepo_tracerCarrier"
-      stroke-linecap="round"
+      strokeLinecap="round"
       stroke-linejoin="round"
     />
 
