@@ -6,8 +6,8 @@ const AboutSectionTwo = () => {
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
           <SectionTitle
-            title="About SmartPass"
-            paragraph="Our blockchain-powered ticketing system ensures each ticket is unique, traceable, and immune to tampering."
+            title="Our Solution"
+            paragraph=""
             center
           />
         <div className="-mx-4 flex flex-wrap items-center">
@@ -19,7 +19,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/index/solution.svg"
                 alt="about image"
                 fill
               />

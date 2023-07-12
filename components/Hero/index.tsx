@@ -18,9 +18,7 @@ const Hero = () => {
                   SmartPass - Blockchain Powered
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  SmartPass is an innovative solution that leverages blockchain
-                  technology to provide trusted and authentic event tickets. Say
-                  goodbye to counterfeit tickets and reselling scams.
+                Smartpass provides an innovative and reliable ticketing solution using blockchain technology, providing security, transparency and ease of use. We are only as good as the result we deliver on every ticket.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
