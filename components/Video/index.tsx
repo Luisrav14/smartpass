@@ -5,9 +5,11 @@ import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
 import ModalVideo from "react-modal-video";
+import 'react-modal-video/scss/modal-video.scss';
 
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
+
 
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28" id="presentation">
@@ -42,6 +44,7 @@ const Video = () => {
                     </svg>
                   </button>
                 </div>
+            
               </div>
             </div>
           </div>
@@ -53,12 +56,12 @@ const Video = () => {
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="86xfO-u2qrI"
         onClose={() => setOpen(false)}
       />
 
       <div className="absolute bottom-0 left-0 right-0 z-[-1]">
-        <img src="/images/video/shape.svg" alt="shape" className="w-full" />
+        {/* <img src="/images/video/shape.svg" alt="shape" className="w-full" /> */}
       </div>
     </section>
   );
