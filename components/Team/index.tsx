@@ -1,48 +1,49 @@
 import { TeamMember } from '@/types/teamMember';
 import SingleTeamMember from './SingleTeamMember';
 
+
 const teamMembers: TeamMember[] = [
+    {
+        id: 4,
+        title: 'Backend Developer',
+        name: 'Christian Rodríguez',
+        img: 'https://res.cloudinary.com/dkd7cjepj/image/upload/v1689353843/ChristianRodriguez_tl0nkh.jpg',
+        description: ''
+    },
     {
         id: 1,
         title: 'Backend Developer',
         name: 'Ernesto Amaya',
-        img: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus pretium libero. Etiam mattis metus eget quam rhoncus auctor. Nulla et vestibulum purus, sodales mollis nisi. Fusce sit amet mi.'
+        img: 'https://res.cloudinary.com/dkd7cjepj/image/upload/v1689353843/ErnestoAmaya_akzsd8.jpg',
+        description: ''
+    },
+    {
+        id: 5,
+        title: 'Manager',
+        name: 'Gerardo Ceseñas',
+        img: 'https://res.cloudinary.com/dkd7cjepj/image/upload/v1689353843/GerardoCesenas_rqdvya.jpg',
+        description: ''
     },
     {
         id: 2,
-        title: 'FrontEnd Developer',
+        title: 'Designer',
         name: 'Keren Corral',
-        img: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus pretium libero. Etiam mattis metus eget quam rhoncus auctor. Nulla et vestibulum purus, sodales mollis nisi. Fusce sit amet mi.'
+        img: 'https://res.cloudinary.com/dkd7cjepj/image/upload/v1689353845/KerenCorral_snalpb.jpg',
+        description: ''
     },
     {
         id: 3,
         title: 'FrontEnd Developer',
         name: 'Luis Valenzuela',
-        img: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus pretium libero. Etiam mattis metus eget quam rhoncus auctor. Nulla et vestibulum purus, sodales mollis nisi. Fusce sit amet mi.'
-    },
-    {
-        id: 4,
-        title: 'FrontEnd Developer',
-        name: 'Christian Rodríguez',
-        img: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus pretium libero. Etiam mattis metus eget quam rhoncus auctor. Nulla et vestibulum purus, sodales mollis nisi. Fusce sit amet mi.'
-    },
-    {
-        id: 5,
-        title: 'FrontEnd Developer',
-        name: 'Gerardo Ceseñas',
-        img: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus pretium libero. Etiam mattis metus eget quam rhoncus auctor. Nulla et vestibulum purus, sodales mollis nisi. Fusce sit amet mi.'
+        img: 'https://res.cloudinary.com/dkd7cjepj/image/upload/v1689354672/LuisValenzuela_e39acw.jpg',
+        description: ''
     },
     {
         id: 6,
-        title: 'FrontEnd Developer',
+        title: 'Backend Developer',
         name: 'Pablo Córdova',
-        img: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus pretium libero. Etiam mattis metus eget quam rhoncus auctor. Nulla et vestibulum purus, sodales mollis nisi. Fusce sit amet mi.'
+        img: 'https://res.cloudinary.com/dkd7cjepj/image/upload/v1689353843/PabloCesarCordova_vzvp4i.jpg',
+        description: ''
     }
 ];
 
