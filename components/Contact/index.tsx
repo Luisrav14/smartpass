@@ -1,6 +1,24 @@
-import NewsLatterBox from "./NewsLatterBox";
+import { useCallback } from "react";
+import sendEmail from './mail';
 
 const Contact = () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target as HTMLFormElement);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+
+    const data = {
+      name,
+      email,
+      message,
+    };
+
+    await sendEmail(data);
+  };
+
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -8,8 +26,7 @@ const Contact = () => {
           <div className="w-full px-12 lg:w-12/12 xl:w-12/12">
             <div
               className="wow fadeInUp mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
-              data-wow-delay=".15s
-              "
+              data-wow-delay=".15s"
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 Contact Us
@@ -29,6 +46,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+                        name="name"
                         placeholder="Enter your name"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
@@ -44,6 +62,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+                        name="email"
                         placeholder="Enter your email"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
@@ -59,8 +78,8 @@ const Contact = () => {
                       </label>
                       <textarea
                         name="message"
-                        rows={5}
                         placeholder="Enter your Message"
+                        rows={5}
                         className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       ></textarea>
                     </div>
@@ -74,7 +93,6 @@ const Contact = () => {
               </form>
             </div>
           </div>
-
         </div>
       </div>
     </section>
